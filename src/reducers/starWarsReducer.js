@@ -22,7 +22,7 @@ export const charsReducer = (state = initialState, action) => {
       console.log()
       return {
         ...state,
-        isfetching: false,
+        isFetching: false,
         error: '',
         characters: action.payload
       }
